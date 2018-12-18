@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale:1.0">
+	<link rel="stylesheet" href="styles.css">
+	<style>
+	.gallery {
+	position:relative;
+	float:left;
+	background-size:100px;
+	background-position:center;
+	transition:0.5s;
+	}
+	.gallery:after{
+	position:absolute;
+	top:100%;
+	bottom:0;
+	left:0;
+	right:0;
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.6);
+	color:#fff;
+	padding:0 100px;
+	opacity:0;
+	transition:0.5s;
+	content:attr(data-text);
+	}
+	.gallery:hover:after{
+	opacity:1;
+	top:0;
+	padding:100px;
+	}
+	.gallery:first-line{
+	color:#fff;
+	font-size:20px;
+	}
+
+	</style>
+	</head>
+<body style="margin:0px">
+
+<div class="begin">
+	<h2 class="georgie">Georgie.com</h2>
+	</div>
+	<div class="menu">
+	<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#about">About</a>
+		<ul>
+				<li><a>Hey! It's Me</a></li>
+				<li><a>My Gallery</a></li>
+			</ul>
+			</li>
+	<li><a href="#blog">Blog</a>
+		<ul>
+		<li><a href="#home">Awesome Tips</a></li>
+		<li><a href="#home">OJT Journal</a></li>
+		<li><a href="#home">Immersion</a></li>
+		</ul>
+		</li>
+	<li><a  href="ContactUs.html">Contact</a></li>
+	</ul>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div>
+	<hr>
+	</div>
+
+
+	<div class="gallery" style="border:2px solid black;width:450px;height:550px;margin-right:50px;margin-left:30px;margin-top:90px;" data-text="Missing my good ol' self #maylamanpa">
+	<img src="image/IMG_0525.jpg" style="width:450px;height:550px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:350px;height:600px;margin-right:50px;margin-left:10px;margin-top:50px;" data-text="Columbus?">
+	<img src="image/WP_20160730_07_39_37_Pro.jpg" style="width:350px;height:600px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:350px;height:550px;margin-left:10px;margin-top:90px;margin-right:0px;" data-text="Ngiting natatae">
+	<img src="image/pikit.jpg" style="width:350px;height:550px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:400px;height:700px;margin-right:15px;margin-left:20px;margin-top:50px;" data-text="QC Circle #DUB">
+	<img src="image/WP_20170309_14_46_36_Pro.jpg" style="width:400px;height:700px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:880px;height:700px;margin-left:10px;margin-top:50px;" data-text="SM North EDSA Parking Grafitti">
+	<img src="image/retro.jpg" style="width:880px;height:700px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:400px;height:650px;margin-right:40px;margin-left:40px;margin-top:50px;" data-text="Pangiti-ngiti na lang #FoundationDay">
+	<img src="image/27745019_739397239587711_2120511888_o.jpg" style="width:400px;height:650px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:350px;height:600px;margin-right:70px;margin-left:20px;margin-top:70px;" data-text="Nganga pa">
+	<img src="image/huwaw.jpg" style="width:350px;height:600px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:370px;height:600px;margin-right:10px;margin-top:70px;" data-text="Pero GMA talaga ako eh">
+	<img src="image/WP_20170404_09_16_27_Pro.jpg" style="width:370px;height:600px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:850px;height:550px;margin-left:20px;margin-top:125px;" data-text="Vigan kunyari">
+	<img src="image/WP_20160730_08_14_24_Pro.jpg" style="width:850px;height:550px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:420px;height:700px;margin-right:10px;margin-top:50px;margin-left:30px;" data-text="Ala-ala ng Rodics #RIP">
+	<img src="image/WP_20170309_19_09_24_Pro.jpg" style="width:420px;height:700px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:350px;height:550px;margin-right:20px;margin-left:20px;margin-top:80px;" data-text="Ngiting bangag #BSCSExposureTrip">
+	<img src="image/20181004_154808.jpg" style="width:350px;height:550px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:450px;height:600px;margin-right:20px;margin-top:50px;" data-text="Minimum wage earner">
+	<img src="image/IMG20180307170928.jpg" style="width:450px;height:600px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:450px;height:600px;margin-right:20px;margin-top:50px;" data-text="Rare photo of Maria Clara">
+	<img src="image/IMG20180217211431.jpg" style="width:450px;height:600px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:350px;height:550px;margin-right:20px;margin-left:20px;margin-top:50px;" data-text="Idol ko forever">
+	<img src="image/P_20180415_231951.jpg" style="width:350px;height:550px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:550px;height:400px;margin-right:20px;margin-top:120px;" data-text="Dyosang zebra">
+	<img src="image/IMG_20170812_124827.jpg" style="width:550px;height:400px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:350px;height:500px;margin-right:10px;margin-top:80px;" data-text="Hi bes! #cute">
+	<img src="image/IMG20180310200257.jpg" style="width:350px;height:500px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:550px;height:400px;margin-left:10px;margin-top:50px;margin-right:0px;" data-text="Bestfriends since 2016--">
+	<img src="image/IMG20170309093725.jpg" style="width:550px;height:400px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:550px;height:400px;margin-right:60px;margin-left:80px;margin-top:50px;" data-text="Kakamiss!">
+	<img src="image/FB_IMG_1503787506065.jpg" style="width:550px;height:400px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:550px;height:400px;margin-right:20px;margin-left:40px;margin-top:50px;" data-text="HRVCB Second Week Squad!">
+	<img src="image/IMG_8296.jpg" style="width:550px;height:400px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:550px;height:400px;margin-right:60px;margin-left:80px;margin-top:50px;" data-text="Immersion 2nd Week">
+	<img src="image/IMG_9124.jpg" style="width:550px;height:400px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:550px;height:400px;margin-right:20px;margin-left:40px;margin-top:50px;" data-text="#ImmersionHousemates">
+	<img src="image/IMG_8864.jpg" style="width:550px;height:400px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:460px;height:350px;margin-right:10px;margin-left:15px;margin-top:120px;" data-text="First people I have meet in college #YieeeThanks!">
+	<img src="image/IMG20181004050636.jpg" style="width:460px;height:350px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:350px;height:500px;margin-right:10px;margin-top:50px;" data-text="Cute!">
+	<img src="image/IMG20181004101812.jpg" style="width:350px;height:500px;">
+	</div>
+	
+	<div class="gallery" style="border:2px solid black;width:475px;height:350px;margin-right:10px;margin-top:120px;" data-text="Half of the BSCS Class 2018-2019">
+	<img src="image/IMG20181004150416.jpg" style="width:475px;height:350px;">
+	</div>
+	
+	
+	<div class="bottom" style="margin-top:6100px">
+	<h2>Follow me</h2><br>
+	<div style="height:0px;width:0px;padding:0px;margin:0px;">
+	<img src="Icons/045-facebook.png" alt="Facebook"><br>
+	<img src="Icons/013-twitter-1.png" alt="Twitter"><br>
+	<img src="Icons/034-instagram.png" alt="Instagram"><br>
+	<img src="Icons/002-youtube.png" alt="Youtube">
+	</div>
+	<p style="float:right;padding-right:150px;margin:0px;">Contact No. 0943-074-1992<br>
+					
+					<br>
+					
+	Address: #1232 Purok VI Brgy.Bucal Calamba Laguna</p>
+	<ol>
+	<li style="padding-top:0px;"><a href="">facebook.com/georgie.ignacio</a></li>
+	<li style="padding-top:20px;"><a href="">twitter.com/gieignacio03</a></li>
+	<li style="padding-top:10px;"><p><a href="">instagram.com/georgie.ignacio</a></li>
+	<li style="padding-top:10px;"><a href="">youtube.com/georgie.ignacio</a></li>
+	</ol>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<center><h5 style="padding:0px;margin:0px;">All Rights Reserved 2018</h5>
+	</div>
+	
+	
+</body>
+</html>

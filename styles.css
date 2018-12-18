@@ -1,0 +1,233 @@
+<style>
+body {
+	margin:0px;
+	padding:0;
+	font-family:san-serif;
+}
+.me {
+		margin:100px;
+		margin-top:30px;
+		margin-bottom:30px;
+		padding:100px;
+		background-color:black;
+		border-radius:10px;
+		}
+/*for menu*/
+
+.begin	{
+	float:left;
+	margin:0px;
+	padding:0;
+	height:10px;
+	margin-right:10px;
+	margin-top:1%;
+	}
+.menu {
+	float:left;
+	margin-top:3%;
+	margin-left:65%;
+	padding:0px;
+	height:50px;
+	width:33%;
+}
+.georgie {
+	font-size:80px;
+	padding-left:40px;
+	font-family:Amatic;
+	width:15%;
+	margin:0;
+	}
+ul {
+	margin:0px;
+	padding:0px;
+	font-family:Amatic;
+	}
+ul li {
+	padding:0px;
+	float:left;
+	width:100px;
+	height:50px;
+	background-color:transparent;
+	opacity:.8;
+	line-height:50px;
+	text-align:center;
+	font-size:30px;
+	margin-right:1%;
+	margin-left:0px;
+	list-style:none;
+	}
+	
+ul li a{
+	text-decoration:none;
+	color:black;
+	display:block;
+	}
+ul li a:hover{
+	background-color:pink;
+	border-radius:8px;
+}
+ul li a:active{
+	color:black;
+	background-color:pink;
+}
+ul li ul li{
+	display:none;
+	background-color:pink;
+	border-radius:1px;
+}
+ul li:hover ul li{
+	display:block;
+}
+ul li ul li a:hover{
+	color:white;
+	background-color:black;
+}
+	
+
+	
+#uno{
+	background-image:url("sunset.jpg");
+	background-size:cover;
+	background-repeat:no repeat;
+	color:white;
+	text-align:center;
+	padding:250px;
+	padding-bottom:180px;
+	font-family:Martina;
+	font-size:20px;
+	}	
+#dos {
+	background-color:black;
+	color:pink;
+	font-family:Balthazar;
+	font-size:18px;
+	padding-top:30px;
+	padding-right:100px;
+	padding-left:300px;
+	padding-bottom:400px;
+	margin-top:150px;
+	}
+#tres {
+	background-color:black;
+	color:pink;
+	text-align:center;
+	padding-top:50px;
+	padding-right:50px;
+	padding-left:0px;
+	padding-bottom:300px;
+	font-family:Balthazar;
+	font-size:18px;
+	margin-top:150px;
+	}
+#quatro {
+	background-color:pink;
+	color:black;
+	text-align:center;
+	padding:100px;
+	font-family:Balthazar;
+	font-size:18px;
+	margin-top:150px;
+	}	
+#cinco {
+	margin-top:150px;
+	background-color:black;
+	color:pink;
+	text-align:center;
+	padding:150px;
+	font-family:Balthazar;
+	font-size:18px;
+	}
+#sais {
+	margin-top:150px;
+	background-image:url("paa1.jpg");
+	padding:100px;
+	width:1130px;
+	height:500px;
+	}
+	
+/*For  Blog*/
+.two {
+	background-color:black;
+	color:pink;
+	font-family:Balthazar;
+	font-size:20px;
+	margin-bottom:100px;
+	}
+.three {
+	background-color:pink;
+	color:black;
+	text-align:center;
+	padding:50px;
+	font-family:Balthazar;
+	font-size:20px;
+	margin-top:50px;
+	border-radius:10px;
+	}
+.four {
+	background-color:pink;
+	color:black;
+	text-align:center;
+	padding:50px;
+	font-family:Balthazar;
+	font-size:20px;
+	margin-top:50px;
+	border-radius:10px;
+	}	
+.five {
+	margin-top:50px;
+	background-color:pink;
+	color:black;
+	text-align:center;
+	padding:50px;
+	font-family:Balthazar;
+	font-size:20px;
+	border-radius:10px;
+	}
+.six {
+	margin-top:50px;
+	background-image:url("paa1.jpg");
+	padding:50px;
+	width:850px;
+	height:500px;
+	}
+/*for bottom part*/
+.bottom{
+		padding:100px;
+		padding-bottom:1px;
+		background-color:#000000f2;
+		color:white;
+		margin:0px;
+		margin-top:150px;
+		}
+	img {
+		width:35px;
+		height:35px;
+		margin-bottom:10px;
+		}
+	ol li {
+		padding-left:30px;
+		margin:0px;
+		list-style:none;
+		}
+	ol li a:link{	
+		text-decoration:none;
+		color:white;
+		font-size:18px;
+		margin:0;
+		text-align:center;
+		}
+	ol li a:visited{
+		text-decoration:none;
+		color:white;
+		}
+	ol li a:hover{
+		text-decoration:none;
+		color:blue;
+		}
+	ol li a:active{
+		text-decoration:none;
+		color:green;
+		}
+
+
+</style>
